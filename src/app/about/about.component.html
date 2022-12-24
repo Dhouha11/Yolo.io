@@ -1,0 +1,29 @@
+<!-- <h1> {{user.nom}}</h1><br>
+<p> l'age est {{user.age}} et le travail est {{user.job}}</p>
+<img *ngIf="display==true" [src]="user.pic" [alt]="user.nom" >
+<p  > come on</p> <br>
+<button (click)="display=!display"> do it</button>
+
+ <p>{{done}}</p> -->
+
+<!-- <button (click)="change()"> click me </button> -->
+
+<!-- <h1 *ngFor="let item of food"> -->
+<!-- <h3> {{item}}</h3> -->
+
+<div
+  *ngFor="let item of students"
+  [ngClass]="{ 'bg-danger': item.age > 35, 'bg-success': item.age < 35 }"
+>
+  <!-- <ng-container *ngIf="item.age <40" > -->
+
+  <p>{{ item.esm }}</p>
+  <p>{{ item.age }}</p>
+  <!-- </ng-container> -->
+</div>
+
+<!-- <div [ngStyle]="{'background-color':user.bg}">
+    <h1 [ngStyle]="{'color':user.color}"></h1>
+    <p> {{user.nom}}</p>
+    <p> {{user.age}}</p>
+  </div>-->

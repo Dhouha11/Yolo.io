@@ -1,0 +1,25 @@
+.content {
+  margin: 0% auto;
+  color-scheme: green;
+  background-color: palevioletred;
+}
+
+p {
+  color: black;
+  font-size: medium;
+  font-style: oblique;
+}
+.title {
+  color : rgb(122, 50, 50);
+  margin: auto;
+  text-decoration: wavy;
+
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}

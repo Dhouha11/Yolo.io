@@ -1,0 +1,17 @@
+<div class="content">
+  <h1 class="title"> {{name}}<b class="title">{{surname}}</b></h1> <br>
+<p> I'm {{Age}}</p><br>
+<p> i'm {{Description}} </p><br>
+<p> Today is {{thedate}}</p><br>
+<p> And my number is {{numero}}</p> <br>
+<button (click)="OnAddSnap()"> Snap me</button>
+ {{snap}} <br>
+ <button (click)="change()">click me babe</button><br>
+
+  <a [href]="lienurl" >Lien Bootsrap</a>
+
+ <img [src]="imgurl" [alt]="name" />
+<br>
+  <input type="text" [(ngModel)]="text" >
+
+  {{text}}
